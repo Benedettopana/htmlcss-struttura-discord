@@ -1,0 +1,90 @@
+/* Reset */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* controllo grandezze flex */
+.debug{
+  background-color: (255, 0, 0, .2);
+  border: 1px solid black;
+}
+
+body{
+  /* max-width: 1200px; */
+
+}
+
+/* header */
+header{
+  background-color: #3161E0;
+  height: 80px;
+  padding: 0 350px 0 280px;
+
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+/* logo */
+.logo{
+  display: flex;
+  justify-content: left;
+  /* flex-grow: 1; */
+}
+
+.logo .logo-img{
+  width: 250px;
+}
+/* /logo */
+
+/* nav centrale */
+nav{
+  width: 900px;
+}
+
+nav ul{
+  display: flex;
+  justify-content: space-around;
+  justify-content: center;
+  flex-wrap: wrap;
+  
+  list-style: none;
+}
+
+nav ul li a{
+  text-decoration: none;
+  text-transform: uppercase;
+  display: inline-block;
+
+  background-color: red;
+  color: yellow;
+  padding: 5px 10px;
+}
+
+nav ul li a:hover{
+  background-color: lightgreen;
+}
+/* /nav centrale */
+
+/* login  */
+.login{
+  display: flex;
+  justify-content: right;
+}
+
+/* bottone */
+.btn{
+  border: none; 
+  padding: 15px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+
+  font-weight: bold;
+}
+/* login  */
+
+
+/* /header */
