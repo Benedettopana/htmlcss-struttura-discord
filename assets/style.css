@@ -218,7 +218,7 @@ footer .box#piccolo{
 
 /* box footer */
 footer .box-contenitore .foot-grande{
-  width: 25%;
+  width: 35%;
   height: 100%;
   background-color: #F08080;
   display: flex;
@@ -227,7 +227,7 @@ footer .box-contenitore .foot-grande{
 }
 
 footer .box-contenitore .foot-piccolo{
-  width: 25%;
+  width: 20%;
   height: 100%;
   background-color: #20B2AA;
   display: flex;
