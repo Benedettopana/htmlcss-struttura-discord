@@ -86,5 +86,28 @@ nav ul li a:hover{
 }
 /* login  */
 
-
 /* /header */
+
+
+/* main */
+  .hero{
+    background-color: #3161E0;
+    height: 550px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+.hero .box-hero{
+  background-color: orange;
+  width: 950px;
+  height: 400px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* /main */
