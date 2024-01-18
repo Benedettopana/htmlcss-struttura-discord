@@ -33,7 +33,6 @@ header{
 .logo{
   display: flex;
   justify-content: left;
-  /* flex-grow: 1; */
 }
 
 footer .logo{
@@ -55,7 +54,7 @@ nav ul{
   display: flex;
   justify-content: space-around;
   justify-content: center;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   
   list-style: none;
 }
@@ -64,6 +63,7 @@ nav ul li a{
   text-decoration: none;
   text-transform: uppercase;
   display: inline-block;
+  flex-wrap: wrap;
 
   background-color: red;
   color: yellow;
@@ -155,6 +155,12 @@ footer .btn{
   justify-content: center;
 }
 
+header .box-contenitore{
+  height: 40px;
+  margin: 0;
+
+}
+
 .box-contenitore#footer-bot{
   background-color: #7FFFD4;
 
@@ -172,6 +178,7 @@ footer .box{
 
 footer .box#piccolo{
   height: 100px;
+
   border: none;
 }
 /* /footer box */
@@ -228,9 +235,13 @@ footer .box-contenitore .foot-piccolo{
   justify-content: center;
 }
 
-footer .box-piccolo{
+footer .box-contenitore#prova{
+  background-color: rgba(255, 0, 0, 0);
+  height: 100px;
+}
+footer .box-contenitore .little{
   background-color: #7FFFD4;
-  width: 1200px;
+  width: 100%;
   height: 80px;
   margin-top: 20px;
 
@@ -240,6 +251,7 @@ footer .box-piccolo{
   justify-content: space-between;
 
 }
+
 
 /* /box footer */
 
