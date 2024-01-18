@@ -8,7 +8,7 @@
 /* controllo grandezze flex */
 .debug{
   background-color: (255, 0, 0, .2);
-  border: 1px solid black;
+  border: 2px dashed black;
 }
 
 body{
@@ -117,11 +117,18 @@ nav ul li a:hover{
 
 .box#bianco{
   height: 630px;
-  background-color: #FFFFFF;
 
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.box#bianco{
+  background-color: #FFFFFF;
+}
+
+.box#grigio{
+  background-color: #D3D3D3;
 }
 
 .box-contenitore{
