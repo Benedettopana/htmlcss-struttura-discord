@@ -73,6 +73,7 @@ nav ul li a:hover{
 .login{
   display: flex;
   justify-content: right;
+  flex-wrap: wrap;
 }
 
 /* bottone */
@@ -115,7 +116,7 @@ nav ul li a:hover{
 }
 /* /hero */
 
-.box#bianco{
+.box{
   height: 630px;
 
   display: flex;
@@ -131,6 +132,11 @@ nav ul li a:hover{
   background-color: #D3D3D3;
 }
 
+.box#grande{
+  height: 1000px;
+  background-color: #D3D3D3;
+}
+
 .box-contenitore{
   background-color: yellow;
   width: 1200px;
@@ -139,6 +145,10 @@ nav ul li a:hover{
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.box-contenitore#big{
+  height: 900px;
 }
 /* /box */
 
@@ -155,6 +165,16 @@ nav ul li a:hover{
   width: 30%;
   height: 100%;
   background-color: #FFC0CB;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.box-contenitore .cento{
+  width: 100%;
+  height: 100%;
+  background-color: #228B22;
   display: flex;
   align-items: center;
   justify-content: center;
