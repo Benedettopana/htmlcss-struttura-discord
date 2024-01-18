@@ -90,24 +90,70 @@ nav ul li a:hover{
 
 
 /* main */
-  .hero{
-    background-color: #3161E0;
-    height: 550px;
-    
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
 
-.hero .box-hero{
+
+/* box */
+.box{
+  background-color: #3161E0;
+  height: 550px;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* hero */
+.box .hero{
   background-color: orange;
   width: 950px;
   height: 400px;
-
+  
   display: flex;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
 }
+/* /hero */
+
+.box#bianco{
+  height: 630px;
+  background-color: #FFFFFF;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box-contenitore{
+  background-color: yellow;
+  width: 1200px;
+  height: 500px;
+  margin: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* /box */
+
+/*  box settanta-trenta*/
+.box-contenitore .settanta{
+  width: 70%;
+  height: 100%;
+  background-color: #1E90FF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.box-contenitore .trenta{
+  width: 30%;
+  height: 100%;
+  background-color: #FFC0CB;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* /box settanta-trenta*/
+
+
 
 /* /main */
